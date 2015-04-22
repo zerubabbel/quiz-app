@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="javascript/quiz.js"></script>
+</head>
+<body>
+	<div class="container">
+          <header>
+            <h1>Bible Quiz</h1>
+            <h2>Do you know your Bible?</h2>
+          </header>
+
+          <div>
+            <div id="main" >
+                <p></p>
+                <br>
+                <p id="writtenQuestion" class="question"> 
+                    What is the first Book in the Bible?
+                </p>
+                <div class="span3">
+                    <form>
+                        <fieldset id="mainSec">
+                            <label class="radio"><input type="radio" data-ans="0" name="check">Matthew</label>
+                            <label class="radio"><input type="radio" data-ans="1" name="check">Revelation</label>
+                            <label class="radio"><input type="radio" data-ans="2" name="check">Exodus</label>
+                            <label class="radio"><input type="radio" data-ans="3" name="check">Genesis</label>
+                        </fieldset>
+                    </form>
+                    <button id="submission">Submit</button>
+                    <button id="review">See How You Did!</button>
+                </div>         
+            </div><!--main-->
+          </div><!--row-fluid-->
+          <div id="revSection">
+             <button id='restart' >Restart Quiz</button>        
+          </div><!--row-fluid-->
+
+        </div><!--container-fluid-->
+
+</body>
+</html>
